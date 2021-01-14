@@ -1,0 +1,222 @@
+/* section-1  */
+#penguin-girl img{
+    width: 100%;
+}
+/* woman section  */
+#woman-jacket-1{
+    
+}
+/* section three  */
+.section-three{
+    margin-top: 120px;
+}
+.icon-width{
+    width: 80px;
+}
+
+.box-2{
+    width: 50%;
+}
+/* footer section  */
+footer{
+    background:rgb(27, 27, 75) ;
+
+}
+.footer-section{
+    height: 400px;
+}
+.box-3{
+    width: 30%;
+    height: 200px;
+    margin: 0 20px;
+}
+.box-3 h5{
+   color: white;
+}
+.box-3 p{
+   color:  rgb(169, 169, 221);
+}
+.box-3 ul li{
+    
+    list-style: none;
+}
+.box-3 ul li a{
+    text-decoration: none;
+    color: rgb(169, 169, 221);
+    
+}
+.box-3 ul li a:hover{
+    color: #fff;
+    
+}
+
+
+/* utilities */
+.h1-tag{
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+}
+.header-1{
+    color: #fabe4c;
+}
+.header-2{
+    color: rgb(27, 27, 75);
+    font-family: 'Anton', sans-serif;
+}
+.button-tag{
+    background-image: linear-gradient(180deg, #aec552 0,#6c8605 100% );
+    color: white;
+    padding: 15px 26px;
+    border: none;
+    border-radius:10px ;
+
+}
+.button-tag:hover{
+    background-image: linear-gradient(100deg,#6c8605 0, #aec552 100% );
+   
+
+}
+.button-tag img{
+    width: 23px;
+
+}
+#last-text{
+    text-align: center;
+    color: rgb(169, 169, 221)  ;
+
+}
+
+
+/* media quaries */
+@media only screen and (min-width: 514px) and (max-width: 980px){
+    /* header section  */
+    #logo-tag{
+        width:400px;
+    }
+    
+    /* section one  */
+    .section-one-box{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .section-one-box .box-1{
+       width: 100%;
+    }
+    .box-1 p{
+        text-align:justify;
+        word-wrap: break-word;
+    }
+    #penguin{
+        padding-left: 0px;
+    }
+    #penguin-girl{
+        margin-top: 20px;
+    }
+    #penguin-girl img{
+        width: 700px;
+    }
+    .section-two h2{
+        text-align: center;
+
+    }
+    /* section three  */
+    .section-three{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .box-2{
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    .small-box{
+        flex-direction: column;
+        
+    }
+    .icon-width{
+        width: 170px;
+    }
+    .small-box-details{
+        margin-top: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+    /* footer section  */
+    .footer-section{
+        flex-direction: column;        
+    }
+    .box-3{
+        width: 20%;
+    }
+
+}
+@media only screen and (min-width:114px ) and (max-width: 514px){
+    *{
+        margin: 0;
+    }
+    #logo-tag{
+        width:210px;
+    }
+    
+      /* section one  */
+    .section-one-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .section-one-box .box-1{
+       width: 100%;
+       
+    }
+    .box-1 p{
+        text-align: left;
+    }
+    #penguin-girl{
+        margin-top: 20px;
+    }
+    .section-two h2{
+        text-align: center;
+
+    }
+     /* section three  */
+    .section-three{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .box-2{
+        width: 100%;
+        margin-top: 30px;
+                
+    }
+    .small-box{
+        flex-direction: column;
+                
+    }
+    .icon-width{
+        width: 150px;
+    }
+    .small-box-details{
+        margin-top: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+    /* footer section  */
+    .footer-section{
+        flex-direction: column;
+        
+    }  
+    .box-3{
+        width: 20%;
+    }
+    .button-tag{
+        background-image: linear-gradient(180deg, #aec552 0,#6c8605 100% );
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius:10px ;
+    
+    }
+  
+}
